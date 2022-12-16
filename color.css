@@ -1,0 +1,115 @@
+body {
+  background-color: #dad1d1;
+  color: #000000;
+}
+#wel {
+  padding: 9px 5px 9px 5px;
+  border: 2px double #6cdb2c;
+  margin: 10px;
+}
+#wel2 {
+  color: #ee4c0c;
+  padding: 9px 5px 9px 5px;
+  border: 3px double #ee0c0c;
+  margin: 30px;
+}
+#c1:hover {
+  color: #ee0c75;
+}
+#c2 {
+  width: 256px;
+}
+#a3:visited {
+  color: #220cee;
+}
+#a3:hover {
+  color: #97ee0c;
+}
+#a4:visited {
+  color: #0cee72;
+}
+#a4:hover {
+  color: #ee0c88;
+}
+#a5:visited {
+  color: #ff0000;
+}
+#a5:hover {
+  color: #00aeff;
+}
+ul.intro-list > li {
+  color: #f700ff;
+}
+ol.hobby-list > li {
+  color: #d9ff00;
+}
+ol.hobby-list li li {
+  color: #ff0000;
+}
+.div1 {
+  color: #0caeee;
+  padding: 9px 5px 9px 5px;
+  border: 3px double #dfee0c;
+  margin: 0 auto;
+  width: 50%;
+}
+.container {
+  background-color: #00aeff;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.item {
+  background-color: #0ceeee;
+  color: #00aeff;
+  width: 100px;
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+}
+.container {
+  display: flex;
+  background-color: #00aeff;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.item1 {
+  background-color: #0ceed0;
+  color: #00aeff;
+  width: 100px;
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+  flex-grow: 1;
+  order: 3;
+}
+
+.item2 {
+  background-color: #0ceed0;
+  color: #00aeff;
+  width: 100px;
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+  flex-grow: 2;
+  order: 2;
+}
+
+.item3 {
+  background-color: #0ceed0;
+  color: #00aeff;
+  width: 100px;
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+  order: 1;
+}
+.btn {
+  cursor: pointer;
+}
+.invisible {
+  display: none;
+}
